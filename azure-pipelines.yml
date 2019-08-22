@@ -37,7 +37,7 @@ steps:
 # Deploy a website or web application using Web Deploy
 - task: IISWebAppDeploymentOnMachineGroup@0
   inputs:
-    webSiteName: 
+    webSiteName: azurepipeline
     #virtualApplication: # Optional
     #package: '$(System.DefaultWorkingDirectory)\**\*.zip' 
     #setParametersFile: # Optional
