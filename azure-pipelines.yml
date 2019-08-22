@@ -32,7 +32,7 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
-- task: PublishBuildArtifacts@1
+
     # IIS web app deploy
 # Deploy a website or web application using Web Deploy
 - task: IISWebAppDeploymentOnMachineGroup@0
@@ -48,3 +48,4 @@ steps:
     #xmlTransformation: # Optional
     #xmlVariableSubstitution: # Optional
     #jSONFiles: # Optional
+- task: PublishBuildArtifacts@1
