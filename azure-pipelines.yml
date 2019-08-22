@@ -39,7 +39,7 @@ steps:
   inputs:
     webSiteName: azurepipeline
     #virtualApplication: # Optional
-    #package: 'D:\Azure\pipeline.zip' 
+    #package: 'D:\Azure\pipeline\*.zip' 
     #setParametersFile: # Optional
     #removeAdditionalFilesFlag: false # Optional
     #excludeFilesFromAppDataFlag: false # Optional
