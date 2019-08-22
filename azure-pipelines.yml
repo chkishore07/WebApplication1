@@ -29,9 +29,10 @@ steps:
     configuration: '$(buildConfiguration)'
 
 - task: PublishBuildArtifacts@1
- inputs:
+  inputs:
     pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
-    artifactName: 'WebApplication1'
+    artifactName: 'myWebsiteName'
+
 
 - task: VSTest@2
   inputs:
